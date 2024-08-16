@@ -48,7 +48,7 @@ function App() {
 
     let years, months, days;
 
-     if(arr[1]===month && arr[2]===_date){
+     if(arr[1]==month && arr[2]==_date){
 
        years=year-arr[0];
        months=month-arr[1];
@@ -113,10 +113,10 @@ function App() {
           </tr><br/>
           <tr>
             <td><label htmlFor="interestRate">Interest(%):</label></td>
-            <td><input type="number" id="interestRate" value={interest} onChange = {handleInterestChange} placeholder="interest rate" required/></td>
+            <td><input type="number" id="interestRate" value={interest} onChange = {handleInterestChange} placeholder="interest for 100 " required/></td>
           </tr><br/>
         </table>
-        <button className="btn">Submit</button>
+        <button className="btn">Calculate</button>
 
         </form>
         {submitedDate && (
