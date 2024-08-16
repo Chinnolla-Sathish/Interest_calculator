@@ -48,7 +48,7 @@ function App() {
 
     let years, months, days;
 
-     if(arr[1]==month && arr[2]==_date){
+     if(arr[1]===month && arr[2]===_date){
 
        years=year-arr[0];
        months=month-arr[1];
@@ -105,7 +105,7 @@ function App() {
         <table>
           <tr>
             <td>  <label htmlFor="dateInput">Select Date:</label></td>
-            <td><input type ="date" id="dateInput" value={date} onChange = {handleDateChange} required/></td>
+            <td><input type ="date" id="dateInput" value={date} onChange = {handleDateChange} placeholder="Enter Date" required/></td>
           </tr><br/>
           <tr>
             <td><label htmlFor="amountInput">Enter Amount:</label></td>
