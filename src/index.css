@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+   font-size: 2.0rem;
+    color: #333;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+
+    /*
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 0;
+    border-bottom: 2px solid #e52e71;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    */
+
+}
+
+
+body{
+  background-color: hsla(290,60%,70%,0.3);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+#root{
+  padding:25px;
+  width:fit-content;
+  height:fit-content;
+  background:hsla(290,100%,50%,0.3);
+  padding-top:50px;
+  border-radius: 20px;
+  box-shadow:  0px 4px 15px rgba(0,0,0,1.5);
+
+}
+/* .underline{
+  text-decoration: underline;
+
+} */
+hr{
+
+  margin: 10px 0;
+  width:100%;
+  margin-bottom: 20px;
+}
+.btn{
+
+  border: none;
+  outline:none;
+  background: none;
+  margin-left: 23%;
+  margin-top: 30px;
+  padding: 10px 24px;
+  border-radius: 7px;
+  min-width: 142px;
+  background-color: hsla(290,100%,50%,0.9);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+}
+.btn:hover{
+  transform: scale(1.05);
+}
+
+.cpyright{
+  margin-left: 20%;
+}
